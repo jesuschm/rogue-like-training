@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player : MovingObject
 {
     public float restartLevelDelay = 1f;
-    public int wallDamage = 1; // Damage to the walls
+    public int wallDamage = 2; // Damage to the walls
     public int pointsPerFood = 10; // Get 10 points when the player get food
     public int pointsPerSoda = 20; // Same with soda items
 
