@@ -32,6 +32,7 @@ public abstract class MovingObject : MonoBehaviour
             StartCoroutine(SmoothMovement(end));
             res = true;
         }
+        boxCollider.enabled = true;
 
         return res;
     }
