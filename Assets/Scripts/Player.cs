@@ -77,6 +77,7 @@ public class Player : MovingObject
                 break;
             case "Soda":
                 food += pointsPerSoda;
+                other.gameObject.SetActive(false);
                 break;
         }
     }

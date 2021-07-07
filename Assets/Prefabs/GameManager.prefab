@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6277758377254802784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54566896, y: -0.12455445, z: -1.7137789}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -93,4 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf8e99e960bf0a47b29ee3187a2da17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnDelay: 0.1
   boardScript: {fileID: 0}
+  playerFoodPoints: 100
+  playersTurn: 1

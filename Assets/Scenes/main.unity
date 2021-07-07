@@ -221,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 6277758377254802784, guid: 6d5e109b22deefd42954ab410b134bb4,
     type: 3}
---- !u!1001 &861882281
+--- !u!1001 &1445198980
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -281,6 +281,11 @@ PrefabInstance:
     - target: {fileID: 821371475988694560, guid: cb583f71ad4914c4680327b6c232e1f3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821371475988694566, guid: cb583f71ad4914c4680327b6c232e1f3,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 821371475988694567, guid: cb583f71ad4914c4680327b6c232e1f3,
